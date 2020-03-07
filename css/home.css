@@ -1,0 +1,89 @@
+/* home page */
+
+#body {
+    height:100%;
+    padding-top: 30px;
+    overflow: hidden;
+    background: #000000; 
+}
+
+#content {
+    background: url(../assets/background.png) no-repeat center center fixed;
+    height: 100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#tap-text {
+    padding-top: 4%;
+    text-align: center;
+    font-family: noClocks;
+    font-size: 700%;
+    color: white;
+}
+
+#tag-line-text {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 150%;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+#store-links-section {
+    padding-top: 3%;
+    margin: 0 auto;
+}
+
+.store-link {
+    height: 70px;
+    width: auto;
+    margin: 5px;
+}
+
+#play-button-section {
+    padding-top: 3%;
+    margin: 0 auto;
+}
+
+#app-store-section {
+    padding-bottom: 20px;
+}
+
+.release-date {
+    font-family: 'Roboto';
+    font-size: 200%;
+    color: white;
+}
+
+#play-text, #play-button {
+    display: inline-block;
+}
+
+#play-text {
+    font-family: 'Roboto';
+    color: white;
+}
+
+#play-image {
+    padding-bottom: 14px;
+    width: auto;
+    height: 50px;
+}
+#play-button-section {
+    display: none;
+}
+
+#bgvid {
+    display:none;
+}
+
+#back-button {
+    display: none;
+}
+
+

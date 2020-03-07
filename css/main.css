@@ -1,0 +1,76 @@
+@font-face {
+    font-family: noClocks;
+    src: url(../vendor/fonts/no-clocks/no-clocks.ttf);
+}
+
+@font-face {
+    font-family: cooperHewitt;
+    src: url(../vendor/fonts/cooper-hewitt/CooperHewitt-Light.otf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto');
+
+html {
+    font-size: 16px;
+}
+
+.center-wrapper {
+    text-align: center;
+}
+
+
+.main-container {
+    padding: 30px 50px 0px 30px;
+    margin-top: 3px;
+}
+
+
+
+
+/* body general */
+
+/* Little bit of a hack to get the nav bar padding to work properly on mobile devices */
+body {
+        padding-top: 45px;
+}
+
+/* navbar */
+#logo {
+    height: auto;
+    width: 50px;
+}
+
+#current-page {
+    color: #B40BD2;
+    font-weight:bold; 
+}
+
+h1, h2, h3 {
+    margin: 0px;
+}
+
+#plus-sign {
+    color: #B40BD2;
+    padding-top: 17px;
+    font-family: cooperHewitt;
+    
+}
+
+.navbar-inverse {
+    background-color: #220F6F;
+    border-color: #220F6F;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    font-size: 18px;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.nav-store-icon {
+    margin-top: -6px;
+    width:20px;
+    height:20px;
+    border:0;
+}
+

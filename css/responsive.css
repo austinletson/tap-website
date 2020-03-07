@@ -1,0 +1,178 @@
+/* Changes in css for devices and mobile orientations that can handle horizontally displaying store links*/
+@media (min-width: 550px) {
+    #store-links-section {
+        width: 550px;
+    }
+    
+    
+    #app-store-section {
+        float: left;
+    }
+
+    #play-store-section {
+        float: right;
+    }
+}
+
+/* Changes in css for tablets*/
+@media (min-width: 768px) {
+    /* Little bit of a hack to get the nav bar padding to work properly on mobile devices (in this case acting on desktop device) */
+
+    #tap-text {
+        font-size: 1200%;
+    }
+
+    #tag-line-text {
+        font-size: 300%;
+    }
+
+
+    /* Legal page */
+    h7 {
+        font-size: 350%;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    h8 {
+        font-size: 200%;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    /* About page */
+    #connect-section {
+        padding: 50px;
+    }
+    #mailing-list-title {
+        font-size: 150%;
+    }
+    
+}
+
+/* Changes in css for laptops */
+@media (min-width: 980px) {
+    /* Little bit of a hack to get the nav bar padding to work properly on mobile devices (in this case acting on desktop device) */
+
+    #tap-text {
+        font-size: 1500%;
+    }
+
+    #tag-line-text {
+        font-size: 400%;
+    }
+
+    #play-button-section {
+        display: block;
+    }
+
+    /* video#bgvid { */
+    /*     display:inline; */
+    /*     position: fixed; */
+    /*     top: 50%; */
+    /*     left: 50%; */
+    /*     min-width: 100%; */
+    /*     min-height: 100%; */
+    /*     width: auto; */
+    /*     height: auto; */
+    /*     z-index: -100; */
+    /*     -ms-transform: translateX(-50%) translateY(-50%); */
+    /*     -moz-transform: translateX(-50%) translateY(-50%); */
+    /*     -webkit-transform: translateX(-50%) translateY(-50%); */
+    /*     transform: translateX(-50%) translateY(-50%); */
+    /*     background: url(polina.jpg) no-repeat; */
+    /*     background-size: cover;  */
+    /* } */
+
+    .video-div{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: -100;
+    }
+    #bgvid {
+        display:inline;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -100;
+    }
+
+    
+    #back-button {
+        position: absolute;
+        top:100px;
+        left: 50px;
+        width: 40px;
+        height: auto;
+    }
+
+    /* Legal page */
+    h7 {
+        font-size: 350%;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    h8 {
+        font-size: 200%;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    /*About page*/
+
+    #connect-section {
+        display: -webkit-flex;
+        display: flex;
+        padding-bottom: 300px;
+    }
+    
+    #about-image-div {
+        display: inline;
+        float: right;
+    }
+
+    .field-container{
+        align-text: right;
+        flex:1;
+        padding-right:60px;
+    }
+
+
+    #media-container{
+    }
+
+    .social_link li a{
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        font-size: 28px;
+        line-height: 70px; 
+        border: 0px solid #000;
+    }
+
+    .social_link br {
+        display:inline;
+    }
+
+    
+
+    /*Contact page*/
+    .contact-form {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 80%;
+        font-family: 'Roboto'
+                         
+    }
+
+    
+}
+
+
+
+
+

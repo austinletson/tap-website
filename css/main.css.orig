@@ -1,0 +1,102 @@
+@font-face {
+    font-family: noClocks;
+    src: url(../vendor/fonts/no-clocks/no-clocks.ttf);
+}
+
+@font-face {
+    font-family: cooperHewitt;
+    src: url(../vendor/fonts/cooper-hewitt/CooperHewitt-Medium.otf);
+}
+
+.center-wrapper {
+    text-align: center;
+}
+
+/* navbar */
+#logo {
+    height: auto;
+    width: 50px;
+}
+
+#current-page {
+    color: #B40BD2;
+}
+
+#plus-sign {
+    color: #B40BD2;
+    padding-top: 17px;
+    font-family: cooperHewitt;
+    
+}
+
+.navbar-inverse {
+    background-color: #220F6F;
+    border-color: #220F6F;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+    font-family: cooperHewitt;
+}
+
+.nav-store-icon {
+    width:20px;
+    height:20px;
+    border:0;
+}
+
+/* main page */
+
+#tap-text {
+    padding-top: 4%;
+    text-align: center;
+    font-family: noClocks;
+    font-size: 15vw;
+}
+
+#tag-line-text {
+    text-align: center;
+    font-family: cooperHewitt;
+    font-size: 3vw;
+}
+
+#store-links-section {
+    padding-top: 3%;
+    margin: 0 auto;
+}
+
+.store-link {
+    height: 100px;
+    width: auto;
+}
+
+<<<<<<< HEAD
+/* contact page */
+=======
+#play-button-section {
+    padding-top: 3%;
+    margin: 0 auto;
+}
+
+#play-text, #play-button {
+    display: inline-block;
+}
+
+#play-text {
+    font-family: cooperHewitt;
+}
+
+#play-image {
+    padding-bottom: 14px;
+    width: auto;
+    height: 50px;
+}
+
+>>>>>>> b57cc077e446d7be7bdcd46642968d2175449098
+
+#main-container {
+    margin: 5% 0 5% 5%;
+}
+#title-text {
+    font-family: cooperHewitt;
+}
